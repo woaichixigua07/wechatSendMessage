@@ -33,7 +33,7 @@ itchat.auto_login(hotReload=True, enableCmdQR=2, loginCallback=loginCallback, ex
 roomslist = itchat.get_contact(update=True)
 print(roomslist)
 
-
+#发送内容
 context =  """
 Hello,world!
 """
@@ -46,8 +46,9 @@ exchange_b = []
 #钱包信息
 wallet =  []
 
-
+#调整要发送的目标
 list_name = wallet
+
 for i in range(0, len(list_name)):
     name = list_name[i]
     context = context
