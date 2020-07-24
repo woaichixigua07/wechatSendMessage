@@ -1,1 +1,2 @@
 # wechatSendMessage
+SendMessage
